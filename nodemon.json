@@ -1,0 +1,9 @@
+{
+    "watch": ["src"],
+    "ext": "js",
+    "ignore": ["src/**/*.test.js"],
+    "ignoreRoot": [".git", "node_modules"],
+    "execMap": {
+        "js": "babel-node"
+    }
+}
