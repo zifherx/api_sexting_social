@@ -1,5 +1,7 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -10,8 +12,6 @@ var _multer = _interopRequireDefault(require("multer"));
 var _uuid = require("uuid");
 
 var _path = _interopRequireDefault(require("path"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var storage = _multer["default"].diskStorage({
   destination: 'uploads',
